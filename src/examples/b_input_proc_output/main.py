@@ -1,8 +1,10 @@
-whole_number = 10 #integer variable
-print(whole_number + 10)
+import input_process_output
 
-float_number = 10.99 #float varaiable
-print(float_number + 5.55)
+integer = input_process_output.echo_number(5)
+print(integer)
 
-name = "Python" #a literal string
-print(name + " is cool")
+float = input_process_output.echo_decimal_number(10.50)
+print(float)
+
+string = input_process_output.echo_string("Python")
+print(string)
