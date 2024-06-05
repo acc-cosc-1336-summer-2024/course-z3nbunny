@@ -1,10 +1,17 @@
-import input_process_output
+import input_process_output #references input_process_output.py
 
-integer = input_process_output.echo_number(5)
+value = input("Enter and number: ") #capture keyboard data
+
+integer = input_process_output.echo_number(value) #echo_number function is in the input_process_output.py file
 print(integer)
 
-float = input_process_output.echo_decimal_number(10.50)
+value = input("Enter a decimal number: ")
+
+float = input_process_output.echo_decimal_number(value) #echo_decimal function is in the input_process_output.py file
 print(float)
 
-string = input_process_output.echo_string("Python")
-print(string)
+value = input("Enter a sequence of chars: ")
+
+string = input_process_output.echo_string(value)#echo_string function is in the input_process_output file
+
+print(string) #print is built in
