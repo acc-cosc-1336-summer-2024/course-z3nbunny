@@ -1,2 +1,2 @@
 import repetition
-repetition.display_numbers(5)
+repetition.display_numbers(3)
