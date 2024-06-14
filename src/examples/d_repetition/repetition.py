@@ -17,7 +17,11 @@ def sum_of_squares(num):
     while(i <= num): #boolean expression
         sum = sum + i * i
         i += 1#statement that makes the boolean expression false i= i+1
+        return sum
 
-
+def display_numbers_for(num):
+        
+        for val in range (0, num):
+             print(val+1)
 
         return(sum)
