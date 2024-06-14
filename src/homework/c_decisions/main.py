@@ -1,4 +1,6 @@
 #
 import decisions
 
-print(decisions.get_options_ration(10, 2))
+
+
+professor_rating = input ("Enter a rating for your professor: ")

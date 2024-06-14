@@ -1,7 +1,7 @@
 def get_options_ratio(option, total):
     ratio = option / total
     return ratio
-def get_faulty_rating(ratio):
+def get_faculty_rating(ratio):
     if ratio >= .9 and ratio < 1:
         return "Excellent"
     elif ratio > .8:
