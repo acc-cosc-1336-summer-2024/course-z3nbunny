@@ -11,16 +11,16 @@ class TestConfig(unittest.TestCase):
         self.assertEqual(0.5, get_options_ratio(10, 20))
 
     def test_get_faulty_rating_excellent(self):
-        self.assertEqual("Excellent", get_faulty_rating())
+        self.assertEqual("Excellent", get_faulty_rating(.91))
 
     def test_get_faulty_rating_very_good(self):
-        self.assertEqual("Very Good", get_faulty_rating())
+        self.assertEqual("Very Good", get_faulty_rating(.85))
 
     def test_get_faulty_rating_very_good(self):
-        self.assertEqual("Good", get_faulty_rating())
+        self.assertEqual("Good", get_faulty_rating(.71))
 
     def test_get_faulty_rating_very_good(self):
-        self.assertEqual("Needs Improvement", get_faulty_rating())
+        self.assertEqual("Needs Improvement", get_faulty_rating(.66))
 
     def test_get_faulty_rating_very_good(self):
-        self.assertEqual("Unacceptable", get_faulty_rating())
+        self.assertEqual("Unacceptable", get_faulty_rating(.45))
