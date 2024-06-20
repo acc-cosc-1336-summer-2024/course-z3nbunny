@@ -5,7 +5,7 @@ def get_factorial_get_sum_odd_w_menu():
     selection = 0
     while not exit_choice:
 
-        print("Welcome to Homework 3 menu, options:")
+        print("Welcome to Homework 4 menu, options:")
         print("1 - Get Factorial")
         print("2 - Sum Odd Numbers")
         print("3 - Exit")
@@ -31,7 +31,7 @@ def get_factorial_get_sum_odd_w_menu():
                     print("Please enter a number from 1 to 100")
 
         elif menu_selection == 3:
-            print("Exiting Homework 3, have a great day!")
+            print("Exiting Homework 4, have a great day!")
             exit_choice = True
 
         else:
