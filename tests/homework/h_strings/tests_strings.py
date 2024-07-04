@@ -1,6 +1,6 @@
 import unittest
-from src.homework.h_strings.value_return import get_hamming_distance
-from src.homework.h_strings.value_return import get_dna_complement
+from src.homework.h_strings.strings import get_hamming_distance
+from src.homework.h_strings.strings import get_dna_complement
 
 class Test_Config(unittest.TestCase):
 
