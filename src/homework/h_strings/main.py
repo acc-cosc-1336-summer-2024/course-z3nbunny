@@ -7,7 +7,7 @@ def get_hamming_distance_or_dna_complement():
         print("Welcome to Homework 5 menu, options:")
         print("1 - Hamming Distance")
         print("2 - DNA Complement")
-        print("3 - Exit")
+        print("3 - Exit") 
 
         menu_selection = int(input("Enter Selection: "))
     
